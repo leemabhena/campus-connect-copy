@@ -1,0 +1,60 @@
+.Feature {
+  padding: 3rem;
+}
+
+.feature-img {
+  text-align: center;
+}
+
+.feature-img img {
+  height: 30rem;
+}
+
+.feature-small-heading {
+  font-size: 1rem;
+  color: var(--bright);
+}
+
+.feature-h-big {
+  width: 70%;
+  font-weight: 600;
+  color: var(--dark2);
+  font-size: 1.5rem;
+}
+
+.feature-desc {
+  color: var(--dark4);
+  text-align: justify;
+  width: 80%;
+}
+
+.feature-info {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 100%;
+}
+
+.feature-list li {
+  display: flex;
+  align-items: center;
+  color: var(--dark4);
+  margin: 1rem 0;
+}
+
+.b-circular {
+  background-color: var(--bright);
+  color: var(--grey);
+  border-radius: 50%;
+  width: 2rem;
+  height: 2rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  /* position: relative; */
+}
+
+.fl-title {
+  font-weight: 500;
+  margin: 0 0.5rem;
+}

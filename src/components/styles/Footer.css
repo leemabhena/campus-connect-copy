@@ -1,0 +1,19 @@
+.Footer {
+  background-color: var(--dark);
+  color: var(--grey);
+}
+
+.footer-bottom {
+  display: flex;
+  padding: 1rem 1rem;
+}
+
+.copy {
+  flex: 1;
+}
+
+.social-icons i {
+  font-size: 1.2rem;
+  cursor: pointer;
+  margin-left: 0.5rem;
+}

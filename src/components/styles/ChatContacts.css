@@ -1,0 +1,130 @@
+.ChatContacts {
+  width: 30%;
+  padding: 2rem 2rem;
+  color: var(--white);
+  background-color: var(--dark);
+  overflow: scroll;
+  border-right: 1px solid var(--dark1);
+}
+
+.ChatContacts p {
+  margin-bottom: 0;
+}
+
+.contacts-search {
+  background-color: var(--dark4);
+  padding: 0.4rem;
+  border-radius: 0.5rem;
+  color: var(--white);
+  display: flex;
+  align-items: center;
+  margin-bottom: 1.5rem;
+}
+
+.contacts-search input {
+  background-color: transparent;
+  border: none;
+  outline: none;
+  color: var(--white);
+  font-weight: 300;
+  margin-left: 0.5rem;
+  width: 100%;
+}
+
+.contacts-search input::placeholder {
+  color: var(--white);
+}
+
+.chat-contact {
+  display: flex;
+  /* margin: 1rem 0; */
+  cursor: pointer;
+  padding: 0.5rem 0.2rem;
+  border-top: 1px solid var(--dark1);
+  align-items: center;
+  transition: all ease 0.4s;
+}
+
+.chat-contact:hover {
+  background-color: var(--dark3);
+  border-radius: 0.3rem;
+}
+
+.chat-active {
+  background-color: var(--dark4);
+  border-radius: 0.3rem;
+}
+
+.chat-contact-center {
+  flex: 1;
+  margin-left: 0.5rem;
+}
+
+.chat-contact-img {
+  width: 3rem;
+  height: 3rem;
+  overflow: hidden;
+  border-radius: 0.5rem;
+}
+
+.chat-contact-img img {
+  width: 100%;
+  height: 100%;
+}
+
+.chat-name {
+  font-size: 0.9rem;
+  margin-bottom: 0;
+  align-self: flex-start;
+}
+
+.flex-c {
+  display: flex;
+}
+
+.chat-contact-center {
+  min-width: 0;
+}
+
+.chat-last-msg {
+  white-space: nowrap;
+  overflow: hidden;
+  width: 100%;
+  font-size: 0.8rem;
+  color: var(--gray);
+  text-overflow: ellipsis;
+  flex: 1;
+  margin-bottom: 0;
+  padding-top: 0.5rem;
+}
+
+.chat-msg-count {
+  font-size: 0.7rem;
+  display: block;
+  border-radius: 50%;
+  height: 1rem;
+  width: 1rem;
+  background-color: green;
+  color: var(--white);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: bold;
+  margin-top: 0.5rem;
+}
+
+.chat-contact-rigth {
+  margin-left: 0.3rem;
+}
+
+.chat-time {
+  font-size: 0.9rem;
+}
+
+.chat-pin i {
+  transform: rotate(45deg);
+}
+
+.chat-pin {
+  padding-top: 0.3rem;
+}

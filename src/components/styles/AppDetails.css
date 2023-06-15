@@ -1,0 +1,9 @@
+.AppDetails {
+  height: 100vh;
+  overflow: scroll;
+  width: 100%;
+}
+
+.app-details-body {
+  margin-top: 4rem;
+}

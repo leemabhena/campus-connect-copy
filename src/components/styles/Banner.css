@@ -1,0 +1,88 @@
+.Banner {
+  padding: 3rem;
+  background-color: var(--dark);
+  color: var(--grey);
+  height: 100vh;
+  overflow-y: hidden;
+}
+
+.vcentered {
+  /* display: flex;
+  flex-direction: column;
+  height: 100%; */
+  transform: translateY(30%);
+}
+
+.welcome-heading {
+  font-family: var(--serif);
+  width: 80%;
+  font-size: 2.5rem;
+  font-weight: 500;
+}
+
+.welcome-p {
+  width: 80%;
+  margin: 2rem 0;
+  font-family: var(--sanserif);
+  line-height: 1.5rem;
+}
+
+.app-buttons {
+  display: flex;
+  padding-right: 2rem;
+}
+
+.app-buttons img {
+  height: 2rem;
+  width: 2rem;
+}
+
+.playstore {
+  background-color: var(--dark4);
+  color: var(--dark);
+  padding: 0.6rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  margin: 0.5rem 0;
+  flex: 1;
+  margin-right: 1rem;
+}
+
+.app-btn-text em {
+  text-transform: uppercase;
+  font-style: normal;
+  font-size: 0.7rem;
+}
+
+.app-btn-text,
+.app-btn-text-a {
+  margin-left: 0.4rem;
+}
+
+.appstore {
+  background-color: var(--grey);
+  color: var(--dark);
+  padding: 0.6rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  margin: 0.5rem 0;
+  flex: 1;
+}
+
+.app-btn-text-a em {
+  font-style: normal;
+  font-size: 0.7rem;
+}
+
+.banner-imgs {
+  height: 100%;
+}
+
+.banner-imgs img {
+  height: 80%;
+  width: 100%;
+}

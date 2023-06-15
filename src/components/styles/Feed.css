@@ -1,0 +1,16 @@
+.flex-heading {
+  display: flex;
+  align-items: center;
+}
+
+.feeds {
+  margin-top: 2rem;
+}
+
+.heading-con {
+  flex: 1;
+}
+
+.create-post {
+  cursor: pointer;
+}

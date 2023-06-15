@@ -1,0 +1,75 @@
+@import url("https://fonts.googleapis.com/css2?family=Style+Script&display=swap");
+
+.Topbar {
+  background-color: #11101d;
+  height: 3rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  position: fixed;
+  top: 0;
+  width: calc(100% - 250px);
+  z-index: 10;
+  box-shadow: 0px 6px 6px 0px rgba(0, 0, 0, 0.75);
+  -webkit-box-shadow: 0px 6px 6px 0px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 0px 6px 6px 0px rgba(0, 0, 0, 0.75);
+  padding-left: 1rem;
+}
+
+.logged-name {
+  margin: 0;
+  font-size: 0.9rem;
+  color: var(--white);
+}
+
+.hello {
+  font-family: "Style Script", cursive;
+  font-size: 1rem;
+}
+
+.navtop-links {
+  margin: 0 1rem 0 0;
+}
+
+.navtop-links li {
+  display: inline-block;
+}
+
+.navtop-links li a {
+  color: var(--white);
+  font-size: 1.2rem;
+  background-color: var(--dark2);
+  padding: 0.3rem;
+  border-radius: 0.3rem;
+  margin-right: 0.5rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  transition: all ease-in 0.5s;
+}
+
+.navtop-links li a:hover {
+  background-color: var(--white);
+  color: #11101d;
+}
+
+.badge-container {
+  position: relative;
+}
+
+.--badge {
+  position: absolute;
+  font-size: 0.8rem;
+  top: -0.4rem;
+  left: -0.5rem;
+  color: var(--white);
+  background-color: var(--bright);
+  height: 1rem;
+  width: 1rem;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: bold;
+}

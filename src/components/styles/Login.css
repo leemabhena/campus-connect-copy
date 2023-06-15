@@ -1,0 +1,55 @@
+.Login {
+  padding: 3rem;
+  height: 100vh;
+  overflow-y: hidden;
+  background-color: var(--dark);
+  color: var(--grey);
+}
+
+.lleft {
+  margin-top: 3rem;
+}
+
+.llheader {
+  font-family: var(--serif);
+  color: var(--grey);
+}
+
+.lleft-decs {
+  color: var(--dark4);
+}
+
+.linput {
+  display: block;
+  font-family: var(--sanserif);
+  color: var(--grey);
+  width: 90% !important;
+  background-color: transparent;
+  border: none;
+  outline: none;
+  border-bottom: 1px solid var(--grey);
+  padding: 0.2rem;
+  margin-bottom: 2rem;
+}
+
+.linput::placeholder {
+  color: var(--grey);
+}
+
+.rimg {
+  overflow: hidden;
+  margin-bottom: 3rem;
+  border-radius: 2rem;
+  margin-left: 2rem;
+}
+
+.lsubmit {
+  border: none;
+  margin: 1rem 0;
+  padding: 0.2rem 1rem;
+  width: 90%;
+  text-transform: uppercase;
+  background-color: var(--bright);
+  color: var(--grey);
+  font-weight: bold;
+}

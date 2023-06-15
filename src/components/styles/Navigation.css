@@ -1,0 +1,22 @@
+.Navigation {
+  background-color: var(--dark);
+  color: var(--grey);
+}
+
+.grey-color {
+  color: var(--grey);
+}
+
+.login {
+  color: var(--grey);
+  margin-right: 1rem;
+  background-color: var(--dark3);
+  padding: 0.3rem 1rem;
+}
+
+.signup {
+  color: var(--grey);
+  margin-right: 1rem;
+  background-color: var(--dark1);
+  padding: 0.3rem 1rem;
+}

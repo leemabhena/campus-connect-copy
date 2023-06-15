@@ -1,0 +1,85 @@
+.EventsTile {
+  padding: 1rem;
+  color: var(--white);
+  /* text-align: center; */
+  margin: 1rem;
+  box-shadow: 0px 0px 9px 1px rgba(17, 16, 29, 0.75);
+  -webkit-box-shadow: 0px 0px 9px 1px rgba(17, 16, 29, 0.75);
+  -moz-box-shadow: 0px 0px 9px 1px rgba(17, 16, 29, 0.75);
+}
+
+.event-logo {
+  width: 3rem;
+  height: 3rem;
+  border-radius: 50%;
+  overflow: hidden;
+}
+
+.event-top {
+  display: flex;
+  color: var(--white);
+}
+
+.event-name {
+  margin-left: 0.8rem;
+  flex: 1;
+  text-align: center;
+}
+
+.event-save {
+  margin-left: 0.8rem;
+  height: 2rem;
+  width: 2rem;
+  background-color: var(--dark1);
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+}
+
+.event-title {
+  color: var(--white);
+  margin: 1rem 0;
+}
+
+.event-title a {
+  font-weight: 400;
+  font-size: 1rem;
+  color: var(--white);
+}
+
+.event-details {
+  font-size: 0.7rem;
+}
+
+.event-rule {
+  height: 1px;
+  width: 100%;
+  background-color: var(--dark1);
+}
+
+.event-bottom {
+  padding: 1rem 0 0 0;
+  font-size: 0.8rem;
+  display: flex;
+}
+
+.event-overlap-avatars div {
+  height: 1.5rem;
+  width: 1.5rem;
+  border-radius: 50%;
+  overflow: hidden;
+  display: inline-block;
+}
+
+.event-overlap-avatars div img {
+  width: 100%;
+  height: 100%;
+}
+.avatar-2 {
+  transform: translateX(-0.5rem);
+}
+.avatar-3 {
+  transform: translateX(-1rem);
+}

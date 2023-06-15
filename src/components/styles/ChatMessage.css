@@ -1,0 +1,187 @@
+.ChatMessage {
+  flex: 1;
+  background-color: var(--dark1);
+  background-image: url("https://www.transparenttextures.com/patterns/fake-brick.png");
+}
+
+.ChatMessage p {
+  margin: 0;
+}
+
+.chat-header {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  height: 60px;
+  background: var(--dark);
+  padding: 0 15px;
+}
+
+.chat-user-info {
+  margin-left: 1rem;
+  flex: 1;
+}
+
+.chat-username {
+  color: var(--white);
+  font-weight: 400;
+  font-size: 1rem;
+}
+
+.user-online-status {
+  color: green;
+  font-size: 0.8rem;
+}
+
+.user-img {
+  width: 40px;
+  height: 40px;
+  overflow: hidden;
+  border-radius: 50%;
+}
+
+.-dp {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  cursor: pointer;
+}
+
+.nav-icons {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.nav-icons li {
+  list-style: none;
+  display: flex;
+  cursor: pointer;
+  color: var(--white);
+  margin-left: 22px;
+  font-size: 18px;
+}
+
+/* chat message */
+.chat-container {
+  position: relative;
+  width: 100%;
+  height: calc(100% - 120px); /*60+60*/
+  padding: 50px;
+  overflow-y: auto;
+}
+
+.message-box {
+  position: relative;
+  display: flex;
+  width: 100%;
+  margin: 5px 0;
+}
+
+.message-box p {
+  position: relative;
+  right: 0;
+  /* text-align: right; */
+  max-width: 65%;
+  padding: 12px;
+  background: #dcf8c6;
+  border-radius: 10px;
+  font-size: 0.9rem;
+}
+
+.message-box.my-message p::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  right: -12px;
+  width: 20px;
+  height: 20px;
+  background: linear-gradient(
+    135deg,
+    #dcf8c6 0%,
+    #dcf8c6 50%,
+    transparent 50%,
+    transparent
+  );
+}
+
+.message-box p span {
+  display: block;
+  margin-top: 5px;
+  font-size: 0.8rem;
+  opacity: 0.5;
+  text-align: right;
+}
+
+.my-message {
+  justify-content: flex-end;
+}
+
+.friend-message p {
+  background: #fff;
+  text-align: left;
+}
+
+.friend-message {
+  justify-content: flex-start;
+}
+
+.chat-container .my-message i {
+  color: yellow;
+}
+
+.message-box.friend-message::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: -12px;
+  width: 20px;
+  height: 20px;
+  background: linear-gradient(
+    225deg,
+    #fff 0%,
+    #fff 50%,
+    transparent 50%,
+    transparent
+  );
+}
+
+/* chat box input */
+.chatbox-input {
+  position: sticky;
+  width: 100%;
+  height: 60px;
+  background: var(--dark);
+  bottom: 0;
+  display: flex;
+  align-items: center;
+}
+
+.chatbox-input i {
+  cursor: pointer;
+  font-size: 1.5rem;
+  color: var(--white);
+}
+
+.chatbox-input i:nth-child(1) {
+  margin: 15px;
+}
+
+.chatbox-input i:last-child {
+  margin-right: 25px;
+}
+
+.chatbox-input input {
+  flex: 1;
+  margin: 0 20px;
+  padding: 10px 20px;
+  border-radius: 10px;
+  font-size: 1em;
+  border: none;
+  outline: none;
+  background-color: var(--dark4);
+  color: black;
+}
+
+.chatbox-input input::placeholder {
+  color: black;
+}

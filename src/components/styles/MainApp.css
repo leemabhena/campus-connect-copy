@@ -1,0 +1,4 @@
+.MainApp {
+  display: flex;
+  background-color: var(--dark);
+}

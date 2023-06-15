@@ -1,0 +1,83 @@
+.Signup {
+  padding: 3rem;
+  height: 100vh;
+  overflow-y: hidden;
+  background-color: var(--dark);
+  color: var(--grey);
+}
+
+.sleft {
+  margin-top: 3rem;
+}
+
+.slheader {
+  font-family: var(--serif);
+  color: var(--grey);
+}
+
+.sleft-decs {
+  color: var(--dark4);
+}
+
+.sinput {
+  display: block;
+  font-family: var(--sanserif);
+  color: var(--grey);
+  width: 90% !important;
+  background-color: transparent;
+  border: none;
+  outline: none;
+  border-bottom: 1px solid var(--grey);
+  padding: 0.2rem;
+  margin-bottom: 2rem;
+}
+
+.sinput::placeholder {
+  color: var(--grey);
+}
+
+.rimg {
+  overflow: hidden;
+  margin-bottom: 3rem;
+  border-radius: 2rem;
+  margin-left: 2rem;
+}
+
+.ssubmit {
+  border: none;
+  margin: 1rem 0;
+  padding: 0.2rem 1rem;
+  width: 90%;
+  text-transform: uppercase;
+  background-color: var(--bright);
+  color: var(--grey);
+  font-weight: bold;
+}
+
+.stypes {
+  display: flex;
+}
+
+.square {
+  border: 1px solid var(--dark4);
+  padding: 0.6rem;
+  cursor: pointer;
+  color: var(--dark4);
+  border-radius: 0.5rem;
+  margin: 2rem 0;
+  margin-right: 1rem;
+}
+
+.row_ {
+  display: flex;
+  margin: 0.3rem 0;
+}
+
+.full {
+  flex: 1;
+}
+
+.sactive {
+  color: var(--grey);
+  border: 1px solid var(--grey);
+}
